@@ -141,6 +141,9 @@ margin-left: 300px;
 .hot-deal-text{
     margin-left:250px ;
 }
+span{
+    color: rgb(201, 12, 12);
+}
 .hot-btn{
     margin-left: 430px;
     margin-top: 30px;
@@ -234,3 +237,28 @@ margin-top: 30px;
     font-weight: bold;
 }
 /* end bg imges*/
+/* stret footer*/
+.fl-shop{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+.fl-hed{
+    color: white;
+    text-align: center;
+    padding: 60px;
+    padding-bottom: 0;
+}
+.fl-prea{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.last{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+}
+/*end footer*/
