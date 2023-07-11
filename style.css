@@ -1,6 +1,7 @@
  *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
  }.main-page{
 display: flex;
 width: 100%;
@@ -42,3 +43,194 @@ opacity: 80%;
     padding-top: 37px;
 }
 /* 1st page end*/
+/*stred featured*/
+.featurd{
+    height: 80vh;
+    width: 100%;
+}
+.fea-heding{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.fea-per{
+    text-align: center;
+    margin-top: 0;
+    opacity: 70px;
+}
+.featurd-img{
+    display: flex;
+    width: 180px;
+    height: 320px;
+    padding-top:px;
+    margin-left: 200px;
+}
+.featurd-img del{
+text-align: center;
+margin-left: 100px;
+
+}
+.pic1 img{
+    height: 300px;
+    width: 250px;
+    border-top-left-radius:50% ;
+    border-top-right-radius:50% ;
+    padding: 15px;
+    background-color: rgb(250, 255, 203);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pic2 img{
+    height: 300px;
+    width: 250px;
+    border-top-left-radius:50% ;
+    border-top-right-radius:50% ;
+    padding: 15px;
+    background-color: rgb(250, 235, 215);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pic3 img{
+    height: 300px;
+    width: 250px;
+    border-top-left-radius:50% ;
+    border-top-right-radius:50% ;
+ padding: 15px;
+ margin-left: 10px;
+ margin-top: 10px;
+}
+/*end featured*/
+/*optional*/
+.option{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 800px;
+    margin-top: 150px;
+    gap: 50px;
+    background-color: rgba(248, 248, 248, 0.829);
+    margin-left: 300px;
+    box-shadow: 5px 5px 10px rgb(61, 59, 59);
+}
+.delivery img{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.flowers img{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.date img{
+    margin-top: 40px;
+        margin-left: 20px;
+    }
+/* endoptional*/
+/*hot-dale*/
+.hot{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    background-color: antiquewhite;
+    margin-top: 100px;
+}
+.hote-deal{
+margin-top: 220px;
+margin-left: 300px;
+}
+.hot-deal-text{
+    margin-left:250px ;
+}
+.hot-btn{
+    margin-left: 430px;
+    margin-top: 30px;
+    height: 35px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(146, 4, 4);
+    color: white;
+    font-weight: bold;
+}
+.hot-pic{
+width: 100px;
+height: auto;
+margin-top: 20px;
+}
+/* end hot-dale*/
+/* stret instagrem*/
+.instgrem{
+height: 100vh;
+width: 100%;
+}
+.ins-header{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+margin-top: 100px;
+}
+.ins-para{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+opacity: 80%;
+margin-top: 15px;
+margin-bottom:0 ;
+}
+.pic-grope{
+    display: flex;
+    padding: 100px;
+   align-items: center;
+   margin-top: 0;
+   margin-left: 80px;
+}
+.pic-grope img{
+    display: flex;
+   margin-left:30px ;
+    width: 220px;
+    height: auto;
+}
+.img-2{
+background-color: antiquewhite;
+}
+/* end instagrem*/
+/* bg imges*/
+.imges{
+    height: 80vh;
+}
+.bg-imges{
+    height: 60vh;
+    width: 75%;
+    background-image: url(./Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-top: 60px;
+    margin-left: 150px;
+    box-shadow: 3px 3px 10px rgba(44, 43, 43, 0.836);
+}
+.bg-text{
+color: black;
+text-align: center;
+padding-top: 150px;
+font-size: 30px;
+}
+.bg-pera{
+    text-align: center;
+    opacity: 80%;
+}
+.input input{
+height: 30px;
+width: 400px;
+justify-content: left;
+margin-left: 200px;
+margin-top: 30px;
+}
+.input .sub{
+    height:35px ;
+    width: 150px;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+/* end bg imges*/
